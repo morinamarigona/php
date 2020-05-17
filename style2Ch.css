@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+a:link {color:white;text-decoration:none;}
+a:visited {color:white;text-decoration:none;}
+a:hover {color:hotpink;text-decoration:none;}
+a:active {color:white;text-decoration:none;}
+.menu
+{
+display:block;
+width:80%;
+
+
+margin-left:10%;
+background-color:#ff6666;
+color:white;
+font-size:150%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+	margin-left:12%;
+	margin-top:1%;
+}
+
+.menu ul li
+{
+  display:inline-block;
+  
+}
+
+.menu ul li:hover
+{
+background-color:#ff6666;
+}
+
+.menu ul li a:visited
+{
+color:gray;
+display:block;
+}
+
+.menu ul li a:hover
+{
+color:white;}
+
+.menu ul li:hover ul
+{
+display:none;
+position:absolute;
+width:10%;
+}
+
+.menu ul li:hover ul
+{
+display:block;
+}
+
+.menu ul ul
+{
+display:none;
+position:absolute;
+background-color:#ff6666;
+}
+.menu ul ul li{
+display:block;}

@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+
+a:link {color:white;text-decoration:none;}
+a:visited {color:white;text-decoration:none;}
+a:hover {color:white;text-decoration:none;}
+a:active {color:white;text-decoration:none;}
+
+body
+{
+}
+#Kryefaqja:link {color:white;text-decoration:none;}
+#Kryefaqja:visited {color:white;text-decoration:none;}
+#Kryefaqja:hover {color:hotpink;text-decoration:none;}
+#Kryefaqja:active {color:white;text-decoration:none;}
+a.Menyja:link {color:white;text-decoration:none;}
+a.Menyja:visited {color:white;text-decoration:none;}
+a.Menyja:hover {color:hotpink;text-decoration:none;}
+a.Menyja:active {color:white;text-decoration:none;}
+
+a.meny2a:link {color:gray;text-decoration:none;}
+a.meny2a:visited {color:gray;text-decoration:none;}
+a.meny2a:hover {color:hotpink;text-decoration:none;}
+a.meny2a:active {color:gray;text-decoration:none;}
+
+
+
+/*per te gjitha faqet*/
+
+#bookhouse
+{
+  height:50px;
+  margin-top:20px;
+
+  
+}
+#imgbookhouse
+{
+  width:300px;
+  height:50px;
+  margin-left:1198px;
+}
+
+#divLatest
+{
+background-color:white;
+margin-left:33%;
+width:57%;
+height:99%;
+margin-top:3%;
+float:top;
+
+
+}
+
+#Latest1recept
+{
+ width:100%;
+margin-left:0%;
+ height:5%;
+background-color:pink;
+margin-top:0%;
+font-family: "Times New Roman", Times, serif;
+font-size:100%;
+color:black;
+font-variant: small-caps;
+}
+
+#receta1L
+{
+margin-top:5%;
+margin-left:2%;
+height:17%;
+width:98%;
+font-family: 'Mission';
+font-variant:small-caps;
+
+}
+
+#Meny2
+{
+margin-top:2%;
+font-size:125%;
+
+background-color:#F0F0F0;
+color:gray;
+width:100%;
+margin-left:12.5%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+
+
+.menu
+{
+display:block;
+width:80%;
+
+
+margin-left:10%;
+background-color:#fce8e8; ;
+color:white;
+font-size:150%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+	margin-left:12%;
+	margin-top:1%;
+}
+
+.menu ul li
+{
+  display:inline-block;
+  
+}
+
+.menu ul li:hover
+{
+background-color:#fce8e8;;
+}
+
+.menu ul li a:visited
+{
+color:gray;
+display:block;
+}
+
+.menu ul li a:hover
+{
+color:white;}
+
+.menu ul li:hover ul
+{
+display:none;
+position:absolute;
+width:10%;
+}
+
+.menu ul li:hover ul
+{
+display:block;
+}
+
+.menu ul ul
+{
+display:none;
+position:absolute;
+background-color:#fce8e8; ;
+}
+.menu ul ul li{
+display:block;}
+
+#makarona
+{
+font-family: "Mission" !important;    
+font-weight: 400 !important;
+text-transform: lowercase !important;
+}
+
+.recetat ul li 
+{
+width:900px;
+}
+
+
+
